@@ -1,0 +1,22 @@
+{
+  "name": "sharptools-custom",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Christian Gogstad Eide",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-html": "^7.1.0",
+    "prettier": "^2.6.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "htmlWhitespaceSensitivity": "strict",
+    "printWidth": 80,
+    "singleQuote": true,
+    "useTabs": true,
+    "tabWidth": 2
+  }
+}

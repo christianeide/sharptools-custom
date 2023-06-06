@@ -1,0 +1,30 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": ["eslint:recommended", "prettier"],
+	"parserOptions": {
+		"ecmaVersion": 11,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"experimentalObjectRestSpread": true
+		},
+		"allowImportExportEverywhere": true
+	},
+	"plugins": ["html"],
+	"rules": {
+		"require-atomic-updates": "off",
+		"curly": "error",
+		"no-console": "warn",
+		"no-nested-ternary": "error",
+		"no-unused-vars": [
+			"error",
+			{
+				"ignoreRestSiblings": true
+			}
+		],
+		"react/prop-types": "off",
+		"react/no-did-update-set-state": "off"
+	}
+}
